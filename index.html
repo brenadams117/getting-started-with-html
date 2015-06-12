@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>A Pen by  Brendan Adams</title>
+    
+    
+    
+    
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <p><H1><Font Color=darkblue>STAGE 0 ASSIGNMENT SUBMISSION:<br>Creating A Web Page From Personal Notes.</Font></H1></p>
+<p><H3><Font Color=green>Major pieces / concepts of the web</Font></H3>
+<ul>
+<li><b>These are:</b><em><Font Color=Red>You</Font></em>, <em><Font Color=Red>Your Computer + Browser</Font></em>, the <em><Font Color=red>Internet</Font></em>, <em><Font Color=Red>HTTP</Font></em> (protocol used by the internet) and <em><Font Color=Red>Servers</Font></em> that are used to send files.
+<li><b><em>Example:</em></b> when a user accesses a web page on the internet their computer sends a HTTP request to a server. A web browser interprets the http document when it is received at the user’s computer from the server and displays it appropriately.
+<li><b><a href=https://www.youtube.com/watch?v=D8c4JZW73cM>Explained further in this video.</a></b>
+</li></ul></p>
+<br>
+<p><H3><Font Color=green>World Wide Web</font></H3>
+<ul>
+<li><b>Hyper Text Markup Language</b> is used to construct <b>Web Pages</b>.
+<li><b>HTML</b> is made up of:
+<ul>
+<li><em><Font Color=Red>Text content</Font></em> – what you see.
+<li><em><Font Color=Red>Markup</Font></em> – what it looks like / how it is arranged.
+<li><em><Font Color=Red>References</Font></em> - to other files eg. Images and videos.
+<li><em><Font Color=Red>Links</Font></em> - to other pages.
+</ul>
+<li>Pages are linked by <a href=https://en.wikipedia.org/wiki/Hyperlink><b>Hyperlinks</b></a>.
+<li>Invented in early 1990s – now has 30 billion pages.
+</li></ul></p>
+<br>
+<p><H3><Font Color=green>Web Pages</font></H3></p>
+<ul>
+<li>Web Browsers, such as Firefox, Chrome and Internet Explorer, take a HTML text document (Web Page) and interpret the HTML to display the appropriate content. 
+<li>If we don’t provide computers with the correct instructions (code) it cannot decipher for itself what it should do. 
+<ul>
+<li>This is refered to as writing in the correct <em><Font Color=Red>Syntax</Font></em>.</li></ul>
+<li>You are not expected to remember every “<em><Font Color=Red>tag</Font></em>” or piece of “<em><Font Color=Red>code</Font></em>” – this can be looked up / referenced somewhere <em>but</em> the programming / coding needs to be correct.
+</li></ul></p>
+<br>
+<p>
+<p><H3><Font Color=green>Hypertext Markup Language (HTML)</font></H3></p>
+<ul>
+<li>Markup is made up of <b><Font Color=red>Tags</font></b>
+<li>A HTML tag is always contained within “less-than” and ”greater-than” brackets. eg <b>< ></b>
+<li>Most tags have an <b><Font Color=red>Open Tag</font></b> (eg <b>&lt;b&gt;</b> is the open tag for bold type font) as well as a <b><Font Color=red>Close Tag</font></b>, (eg <b>&lt;/b&gt;</b> is the close tag for bold type font).
+<ul>
+<li>&lt;NAME OF TAG&gt;Contents&lt;/NAME OF TAG&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&uarr; &nbsp;&nbsp;Opening tag&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&uarr;&nbsp;&nbsp;Closing tag
+<li>Whole thing is referred to as an ELEMENT (as mentioned below).
+</ul>
+<li><b><Font Color=red>Void</font></b> tags (like <b>&lt;br&gt;</b> (creates a line break)) do not require a closing tag.
+<li>An <b><Font Color=red>Element</font></b> refers to everything within a set of opening and closing tags. See below for example.
+<li>An <b><Font Color=red>Attribute</font></b> is a property of a HTML element. 
+<ul>
+<li>An Element with and attribute is displayed as: <b>&lt;tag&gt; attr=”value”>contents&lt;/tag&gt;</b>
+<li>&lt;a&gt;&lt;/a&gt; tag is an “anchor” tag that is used for making a link
+<li>For example, to set the "href" attribute of an "anchor" tag to my company URL, you would write:<br> &lt;a href=http://www.pinkskipbags.com.au&gt;NameTheLink&lt;/a&gt;
+<br>This would allow me to create a hyperlink: <a href=http://www.pinkskipbags.com.au>www.pinkskipbags.com.au</a>
+</li></ul></ul></p>
+<p>
+<ul>
+<H4><Font Color=green>Examples and other Tags</font></H4></p>
+<ul>
+<li>&lt;b&gt;&lt;/b&gt; tags = <b>BOLD</b> text.
+<li>&lt;em&gt;&lt;/em&gt; tags = <em>emphasis / italics</em> text.
+<li>An example of using the Attribute property: <b>&lt;a href=http://www.reddit.com>ClickMe&lt;/a&gt;</b> is used to create the link: <a href=http://www.reddit.com>ClickMe</a>
+<ul><li> href (attribute name), www.reddit.com (value), "ClickMe" is the text (content) of the link to be created.</ul>
+<li>The image tag = &lt;img&gt;
+<ul>
+<li>It is written in the format &lt;img src=”url” alt=”text”&gt;
+<li>src (attribute = source), alt (attribute = alternate text to be displayed if url cannot be found.
+<br>
+<img src=http://www.piz18.com/wp-content/uploads/2011/11/Winking-Puppy.png alt=Image Not Found> 
+<li>Images are a void tag. A void tag has no content and therefore does not have a closing tag.
+<br>
+</ul>
+<p><li><b>Whitespace</b> 
+<ul>
+<li><b>&lt;br&gt;</b> tag creates a break in text to appear on separate lines.
+<ul>
+<li>It has no content so it is a void tag – no closing tag required.
+<li>It is an “inline” element (see below). &lt;br&gt; Shows where a line ends.
+</ul>
+<li> Additional spaces:  If you try to add more than one space by pressing the spacebar, the additional spaces will be deleted. You need to add <b><td>&amp;nbsp;</td></b> to create multiple &nbsp;&nbsp;&nbsp;&nbsp;<b>s&nbsp;&nbsp;&nbsp;p&nbsp;&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;&nbsp;c&nbsp;&nbsp;&nbsp;e&nbsp;&nbsp;&nbsp;&nbsp;s</b>&nbsp;&nbsp;  between letters or word.s 
+<li>Most Elements are categorized as <b><font color=red>BLOCK</font></b> elements or <b><font color=red>INLINE</font></b> elements.
+<ul>
+<li>Block elements usually start and finish with a new line when displayed in a browser.
+<br>
+Eg: &lt;h1&gt;, &lt;p&gt;, &lt;ul&gt;
+<li>Inline elements are usually displayed without line breaks.
+<br>
+Eg: &lt;b&gt;, &lt;td&gt;, &lt;a&gt;, &lt;img&gt;
+</ul>
+<li>&lt;p&gt;paragraph&lt;/p&gt; is a “block” element. It creates a block / box for all the text.
+<li>&lt;span&gt;text&lt;/span&gt; is an inline element. &lt;div&gt;text&lt;/div&gt; is a block element. 
+<ul>
+<li>The most common attribute used for both are <b>Style</b> and <b>Class</b></li>.  
+</li></ul></p>
+    
+    
+    
+    
+    
+  </body>
+</html>
